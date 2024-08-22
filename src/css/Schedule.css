@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "HelveticaBold";
+  src: url("../../src/resources/fonts/Helvetica/FreeSansBold.ttf");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("../../src/resources/fonts/Helvetica/FreeSans.ttf");
+}
+
+@font-face {
+  font-family: "AvantGarde";
+  src: url("../../src/resources/fonts/ITCAvantGardeStd-XLtCn.otf");
+}
+.timelineRow {
+  margin: 0px auto;
+  width: 90%;
+  background-color: #231f20;
+  color: white;
+  height: 2.6em;
+  display: grid;
+  grid-template-columns: 18.9% 81.1%;
+}
+
+.timelineDate {
+  text-align: center;
+  grid-column: 1;
+  width: 100%;
+  margin: auto;
+  color: #ffa500;
+  font-family: HelveticaBold;
+  font-weight: 500;
+  font-size: 1.3em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.timeline {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
+  font-family: HelveticaBold;
+  font-size: 1em;
+}
+
+.time {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.venueRow {
+  display: flex;
+  margin: 0px auto;
+  width: 90%;
+  height: 2.362%;
+  background-color: black;
+  color: white;
+}
+
+.venue {
+  position: relative;
+  width: 18.9%;
+  font-family: HelveticaBold;
+  color: blue;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: auto;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  text-align: center;
+  background-color: #a7a9ac;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.text {
+  height: 2.362vh;
+}
+
+.triangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid black;
+}
+
+.screen {
+  color: black;
+  width: 81.1%;
+  background-color: #808080;
+  display: grid;
+  grid-template-columns: 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625% 1.5625%;
+}
+
+.grid1 {
+  border-right: 1px dotted black;
+}
+
+.grid2 {
+  border-right: 2px dotted black;
+}
+
+.box1 {
+  background-color: #eaebec;
+  height: 100%;
+  border-right: 1px dotted black;
+}
+
+.box2 {
+  background-color: #9e9991;
+  height: 100%;
+  border-right: 1px dotted black;
+}
+
+.box3 {
+  background-color: #eaebec;
+  height: 100%;
+  border-right: 2px dotted black;
+}
+
+.box4 {
+  background-color: #9e9991;
+  height: 100%;
+  border-right: 2px dotted black;
+}
+
+.screenBox {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  margin-left: 0;
+  /* width: 15%; */
+  font-family: Roboto;
+  font-size: 0.6em;
+  text-align: center;
+  line-height: 0.58em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  border-top: 1px solid black;
+  border-left: 1px dotted black;
+  border-bottom: 1px solid black;
+  border-right: 3px solid #da00b9;
+}
+
+.screenInfo {
+  color: grey;
+  font-size: 0.8em;
+  line-height: 0.9em;
+}
+
+.image-container {
+  width: 90%;
+  margin: auto;
+}
+
+.calendar-image {
+  width: 100%;
+}

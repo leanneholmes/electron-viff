@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: 250px minmax(10px, 1fr);
+    height: 100%;
+    background-color: #efefef;
+}
+
+.rightContainer {
+    width: 100%;
+    background-color: #efefef;
+    grid-column: 2;
+    min-height: 100vh;
+}
+
+.topMenu {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    height: 60px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    padding-left: 10px;
+}
+
+#content h3 {
+    margin-left: 0px;
+}
+
+#content {
+    margin-left: 50px;
+    font-family: Roboto;
+}
+
+#upload1 {
+    margin: auto;
+}
+
+#upload2 {
+    padding-top: 20px;
+    margin: auto;
+}
+
+#generatePDF {
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+
+#generateMsg {
+    padding-top: 5px;
+}
+
+#fileValidation {
+    color: red;
+    display: none;
+}
+
+.generateBtn {
+  background-color: #38475e;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.screen {
+    color: black;
+    width: 85%;
+    background-color: #808080;
+    flex-direction: row;
+    font-size: 0.7vw;
+    display: grid;
+    grid-template-columns: repeat(64,1fr);
+}

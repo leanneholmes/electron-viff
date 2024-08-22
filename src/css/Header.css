@@ -1,0 +1,70 @@
+#generatePDF-btn {
+  text-align: center;
+}
+
+#generateMsg {
+  text-align: center;
+  color: red;
+  margin-top: 0.4em;
+}
+
+.btn-icon {
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+.tabs-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.tabs-left {
+  float: left;
+}
+
+#tabs-right {
+  display: none;
+  margin-top: 1.2em;
+  padding-right: 50px;
+  float: right;
+}
+
+#pdf-viewer {
+  display: none;
+  text-align: center;
+}
+
+#preview-viewer {
+  margin-bottom: 3em;
+}
+
+#pdfBtn {
+  margin-left: 2em;
+}
+
+#previewBtn {
+  font-weight: bold;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #878d97 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #878d97;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
